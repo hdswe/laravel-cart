@@ -19,7 +19,15 @@ to learn more about laravel and join to bootcamp
 
 Describe and show how to run the tests with code examples.
 
+## Code Example
 
-## License
+ public function testExample()
+    {
+        $new_cart = new \App\Cart();
+        $new_cart->user_id = 1;
+        $new_cart->item_id = 15;
+        $new_cart->count = 10;
+        $new_cart->save();
+    }
 
-A short snippet describing the license (MIT, Apache, etc.)
+
