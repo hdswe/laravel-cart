@@ -17,9 +17,6 @@ to learn more about laravel and join to bootcamp
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
-
-## Code Example
 
  public function testExample()
     {
